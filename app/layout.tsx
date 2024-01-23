@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Travel",
+  title: "HiTrail - Your travel mate",
   description: "Travel UI/UX App for Camping",
 };
 

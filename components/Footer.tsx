@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='flex flex-col items-start justify-center gap-[10%] md:flex-row'>
           <Link href="/" className='mb-10'>
             <Image 
-              src="/hilink-logo.svg"
+              src="/hitrail-logo.svg"
               alt='logo'
               width={74}
               height={29}
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
 
         <div className='border bg-gray-20' />
-        <p className='regular-14 w-full text-center text-gray-30'>2024 Hilink | All rights reserved</p>
+        <p className='regular-14 w-full text-center text-gray-30'>2024 HiTrail | All rights reserved</p>
       </div>
     </footer>
   )

@@ -51,15 +51,15 @@ const Camp = () => {
     <section className=' 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20'>
       <div className='hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]'>
         <CampSite 
-          backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
-          subtitle="Prigen, Pasuruan"
+          backgroundImage="bg-bg-img-2"
+          title="Plateau Point Trail"
+          subtitle="Grand Canyon National Park"
           peopleJoined="50+ Joined"
         />
         <CampSite 
-          backgroundImage="bg-bg-img-2"
-          title="Mountain View Camp"
-          subtitle="Somewhere in the Wilderness"
+          backgroundImage="bg-bg-img-1"
+          title="Bright Angel Trail"
+          subtitle="Grand Canyon National Park"
           peopleJoined="50+ Joined"
         />
       </div>
@@ -69,9 +69,9 @@ const Camp = () => {
             <strong>Feeling Lost </strong> And Not Knowing The Way?
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
-          Starting from the anxiety of the climbers when visiting a new 
-          climbing location, the possibility of getting lost is very large. 
-          That's why we are here for those of you who want to start an adventure
+          Based on the anxiety of hikers when they visit a new hiking trail, 
+          the possibility of getting lost is very high. That is why we are here 
+          for you who want to start an adventure.
           </p>
           <Image 
             src="/quote.svg"
